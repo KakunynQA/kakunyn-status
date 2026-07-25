@@ -1,31 +1,29 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Kakunyn Grid status monitoring (GRD-294).
+# Probes run on GitHub Actions (free on public repos); history/incidents are
+# git-tracked here. The user-facing page is app.kakunyn.com/status, which
+# renders this repo's api/*.json summaries; the GitHub Pages site below is the
+# raw/backing status site.
+owner: KakunynQA
+repo: kakunyn-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Grid API
+    url: https://api.kakunyn.com/healthz
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
+  - name: Grid App
+    url: https://app.kakunyn.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /kakunyn-status
+  name: Kakunyn Grid Status
+  introTitle: "**Kakunyn Grid** — live status for app.kakunyn.com and api.kakunyn.com."
+  introMessage: Live uptime data collected every ~5 minutes by GitHub Actions. Incident history is git-tracked in this repository.
   navbar:
     - title: Status
       href: /
+    - title: Grid
+      href: https://app.kakunyn.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
