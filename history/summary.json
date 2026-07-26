@@ -5,17 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.kakunyn.com.ico",
     "slug": "grid-api",
     "status": "up",
-    "uptime": "100.00%",
+    "uptime": "99.99%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 731,
-    "timeDay": 731,
-    "timeWeek": 731,
-    "timeMonth": 731,
-    "timeYear": 731,
-    "dailyMinutesDown": {}
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 700,
+    "timeDay": 668,
+    "timeWeek": 700,
+    "timeMonth": 700,
+    "timeYear": 700,
+    "dailyMinutesDown": {
+      "2026-07-25": 0
+    }
   },
   {
     "name": "Grid App",
@@ -23,16 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.kakunyn.com.ico",
     "slug": "grid-app",
     "status": "up",
-    "uptime": "100.00%",
+    "uptime": "99.99%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 492,
-    "timeDay": 492,
-    "timeWeek": 492,
-    "timeMonth": 492,
-    "timeYear": 492,
-    "dailyMinutesDown": {}
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 522,
+    "timeDay": 551,
+    "timeWeek": 522,
+    "timeMonth": 522,
+    "timeYear": 522,
+    "dailyMinutesDown": {
+      "2026-07-25": 0
+    }
   }
 ]
