@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.kakunyn.com.ico",
     "slug": "grid-api",
     "status": "up",
-    "uptime": "98.93%",
+    "uptime": "99.14%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.93%",
-    "uptimeMonth": "98.93%",
-    "uptimeYear": "98.93%",
-    "time": 762,
-    "timeDay": 861,
-    "timeWeek": 762,
-    "timeMonth": 762,
-    "timeYear": 762,
+    "uptimeWeek": "99.14%",
+    "uptimeMonth": "99.14%",
+    "uptimeYear": "99.14%",
+    "time": 756,
+    "timeDay": 719,
+    "timeWeek": 756,
+    "timeMonth": 756,
+    "timeYear": 756,
     "dailyMinutesDown": {
       "2026-07-27": 63
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 692,
-    "timeDay": 886,
-    "timeWeek": 692,
-    "timeMonth": 692,
-    "timeYear": 692,
+    "time": 661,
+    "timeDay": 508,
+    "timeWeek": 661,
+    "timeMonth": 661,
+    "timeYear": 661,
     "dailyMinutesDown": {}
   }
 ]
